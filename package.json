@@ -2,6 +2,10 @@
     "name": "blockchain",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "npm": "6.3",
+        "node": "^8"
+    },
     "dependencies": {
         "aos": "^2.3.0",
         "chokidar": "^2.0.4",
@@ -34,6 +38,7 @@
         "react-router-dom": "^4.3.1",
         "react-scripts": "1.1.4",
         "react-spring": "^5.6.6",
+        "react-styleguidist": "^7.2.3",
         "react-svg": "^5.0.16",
         "react-svg-inline": "^2.1.1",
         "scrollreveal": "^4.0.0",
@@ -43,7 +48,7 @@
         "build-css": "node-sass-chokidar src/ -o src/",
         "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
         "start-js": "react-scripts start",
-        "start": "npm-run-all -p watch-css start-js",
+        "start": "npm-run-all -p watch-css start-js ",
         "build-js": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
