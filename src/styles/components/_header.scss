@@ -1,0 +1,20 @@
+.c-header {
+    background-image: url('./assets/images/home/Header.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+    &.c-container {
+        padding: 10% 20%;
+    }
+    &:after {
+        background-image: url('./assets/images/home/SideShape.svg');
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        left: 0;
+        top: 55%;
+        background-repeat: no-repeat;
+    }
+}

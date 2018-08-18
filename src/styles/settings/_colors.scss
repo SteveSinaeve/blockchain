@@ -1,0 +1,12 @@
+$blue-light: #42ABE1;
+$blue-dark: #234595;
+$light-grey: #F8F8F8;
+.blue--dark {
+    background-color: $blue-dark;
+    color: #fff;
+}
+
+.blue--light {
+    background-color: $blue-light;
+    color: #fff;
+}

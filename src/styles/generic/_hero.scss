@@ -1,0 +1,26 @@
+.g-hero {
+    background-image: url('./assets/images/home/Skewed-background_1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    text-align: left;
+    .c-container {
+        background-image: url('./assets/images/home/custom-shape.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 30%;
+        padding: 15% 20%;
+    }
+}
+
+.e-hero-title {
+    h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 150%;
+    }
+}

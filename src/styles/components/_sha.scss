@@ -1,0 +1,17 @@
+.c-sha {
+    padding-top: 0;
+}
+
+.c-sha-input {
+    margin-bottom: 5%;
+    input {
+        width: calc(100% - 29px);
+        padding: 15px 5px 15px 20px;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    label {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+}

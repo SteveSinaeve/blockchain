@@ -1,0 +1,34 @@
+.c-caeser {
+    padding: 0 20% 5% 20%;
+    input {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    label {
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+    .c-message {
+        width: 60%;
+        margin-bottom: 4%;
+        .c-message-input {
+            width: 80%;
+            padding: 15px 5px 15px 20px;
+        }
+    }
+    .c-shift {
+        width: 10%;
+        input[type=number] {
+            text-align: center;
+        }
+        .c-shift-input {
+            padding: 15px 5px 15px 20px;
+        }
+    }
+    .c-output {
+        width: 70%;
+        input {
+            padding: 15px 5px 15px 20px;
+        }
+    }
+}

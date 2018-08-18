@@ -1,0 +1,83 @@
+.c-merkle {
+    padding-top: 0;
+    .cls-1 {
+        fill: #fff
+    }
+    .cls-1,
+    .cls-8 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10
+    }
+    .cls-2 {
+        font-size: 10px
+    }
+    .cls-2,
+    .cls-4,
+    .cls-7,
+    .cls-9 {
+        fill: #1d1d1b
+    }
+    .cls-2,
+    .cls-4,
+    .cls-7 {
+        font-family: SFProDisplay-Bold, SF Pro Display;
+        font-weight: 700
+    }
+    .cls-3 {
+        letter-spacing: -.01em
+    }
+    .cls-4 {
+        font-size: 11px
+    }
+    .cls-7 {
+        font-size: 12px
+    }
+    .cls-8 {
+        fill: none
+    }
+    .cls-10 {
+        letter-spacing: -.07em
+    }
+    .cls-11 {
+        letter-spacing: -.01em
+    }
+    .c-merkle-tree {
+        width: 60%;
+        padding-right: 3%;
+    }
+    input, input[type=text] {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .c-merkle-inputs {
+        border-left: 1px solid #EBEBEB;
+        padding-left: 2%;
+        width: 40%;
+        input {
+            margin-bottom: 10px;
+            padding: 15px 5px 15px 20px;
+        }
+        label {
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+    }
+    .c-merkle-output {
+        width: 100%;
+        input {
+            margin-bottom: 10px;
+            padding: 15px 5px 15px 20px;
+            width: calc(100% - 29px);
+        }
+        input[type=text]{
+            box-sizing: border-box;
+        }
+        label {
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+    }
+    .test {
+        background-image: url("./assets/images/home/Input.svg");
+    }
+}

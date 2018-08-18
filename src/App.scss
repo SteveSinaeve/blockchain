@@ -1,0 +1,34 @@
+/* Settings */
+
+@import 'styles/settings/_global.scss';
+@import 'styles/settings/_colors.scss';
+@import 'styles/settings/_fonts.scss';
+@import 'styles/settings/_typography.scss';
+
+/* Tools */
+
+@import 'styles/tools/_tools.scss';
+
+/* Generic */
+
+@import 'styles/generic/_hero.scss';
+@import 'styles/generic/_error.scss';
+
+/* Components */
+
+@import 'styles/components/_container.scss';
+@import 'styles/components/_item.scss';
+@import 'styles/components/_textblock.scss';
+@import 'styles/components/_navigation.scss';
+@import 'styles/components/_header.scss';
+@import 'styles/components/_caesar.scss';
+@import 'styles/components/_sha.scss';
+@import 'styles/components/_merkle.scss';
+@import 'styles/components/_definition.scss';
+@import 'styles/components/_singleBlock.scss';
+
+/* Objects */
+
+@import 'styles/objects/_button.scss';
+@import 'styles/objects/_hamburger.scss';
+@import 'styles/objects/_menu.scss';
