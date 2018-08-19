@@ -2,10 +2,6 @@
     "name": "blockchain",
     "version": "0.1.0",
     "private": true,
-    "engines": {
-        "npm": "6.3",
-        "node": "^8"
-    },
     "dependencies": {
         "aos": "^2.3.0",
         "chokidar": "^2.0.4",
@@ -58,7 +54,6 @@
         "babel-loader": "^7.1.5",
         "babel-preset-env": "^1.7.0",
         "babel-preset-react": "^6.24.1",
-        "react-svg-loader": "^2.1.0",
-        "webpack": "^4.16.5"
+        "react-svg-loader": "^2.1.0"
     }
 }
