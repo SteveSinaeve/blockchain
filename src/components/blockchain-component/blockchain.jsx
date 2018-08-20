@@ -21,7 +21,7 @@ export default class Blockchain extends Component {
       <div>
         <Header title="Blockchain" description="Op deze pagina wordt er een woordje meer uitleg gegeven over blockchain." />
         <div className="c-container">
-            <div className="c-blockchain-slider t-flex-row">
+            <div className="c-blockchain-slider t-flex-row t-x-middle">
             <BlockchainBlock minedBlock={(val) => this.minedHash(val, 'hash1')} />
             { hash1 ?
             (<BlockchainBlock previousHash={hash1} minedBlock={((val) => this.minedHash(val, 'hash2'))}/>)

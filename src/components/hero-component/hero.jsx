@@ -13,7 +13,7 @@ export default class Hero extends Component {
                     <h2>
                         Onderdeel van de bachelorproef van Thomas Coppein.
                     </h2>
-                    <button className="o-button blue--light">Meer info</button>
+                    <button className="o-button blue--light"><a href="#welcome">Meer info</a></button>
                 </div>
             </div>
         </div>

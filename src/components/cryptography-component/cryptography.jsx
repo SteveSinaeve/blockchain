@@ -12,18 +12,11 @@ export default class Cryptography extends Component {
     return (
       <div>
         <Header title="Cryptografie" description="Op deze pagina wordt er een woordje meer uitleg gegeven over cryptografie" />
-        <TextBlock title="Caesar Cipher" body="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id.
-  Illum augue liber in his. At eirmod maiorum eum, est causae democritum dissentiet in. No facer integre propriae nec. Has justo choro eu. Erat paulo comprehensam his cu, vel expetendis assueverit id, pro id tation inermis concludaturque.
-  "/>
+        <TextBlock title="Caesar Cipher" body="Cryptografie is niet enkel bij blockchain belangrijk. Het gebruik dateert al van lang geleden. Zo kunnen we als voorbeeld de Caesar Cipher bekijken. De naam verwijst Julius Caesar die deze encryptiemethode gebruikte om te communiceren met zijn veldheren."/>
         <CaesarCipher />
-        <TextBlock title="SHA-256" body="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id.
-  Illum augue liber in his. At eirmod maiorum eum, est causae democritum dissentiet in. No facer integre propriae nec. Has justo choro eu. Erat paulo comprehensam his cu, vel expetendis assueverit id, pro id tation inermis concludaturque.
-  "/>
+        <TextBlock title="SHA-256" body="Secure Hashing Algorithm 256, dit is een onderdeel van de SHA-familie. Deze verzameling is ontworpen door de Amerikaanse National Security Agency.SHA-256 is ook het algoritme waar Bitcoin en vele andere cryptocurrency gebruik van maken."/>
         <SHA />
-        <Definition word="Cipher" definition="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id." />
-        <TextBlock title="Merkle Tree" body="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id.
-  Illum augue liber in his. At eirmod maiorum eum, est causae democritum dissentiet in. No facer integre propriae nec. Has justo choro eu. Erat paulo comprehensam his cu, vel expetendis assueverit id, pro id tation inermis concludaturque.
-  "/>
+        <TextBlock title="Merkle Tree" body="Een Merkle tree of een hash tree is een soort datastructuur. Deze structuur is een fundamenteel onderdeel van de blockchain. Het werd gepatenteerd door Ralph Merkle in 1979."/>
         <Merkle />
       </div>
     )

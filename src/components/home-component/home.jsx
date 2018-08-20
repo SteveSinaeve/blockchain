@@ -10,12 +10,11 @@ export default class Home extends Component {
     return (
       <div>
         <Hero />
-        <TextBlock title="Welkom" body="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id.
-Illum augue liber in his. At eirmod maiorum eum, est causae democritum dissentiet in. No facer integre propriae nec. Has justo choro eu. Erat paulo comprehensam his cu, vel expetendis assueverit id, pro id tation inermis concludaturque.
-"/>
+        <div id="welcome">
+        <TextBlock title="Welkom" body="Dit werkstuk maakt deel uit van mijn bachelorproef. Op deze webapplicatie kunt u interactieve voorbeelden zien van de Caesar Cipher, de SHA-256 encryptie en de Merkle tree. Op de block pagina is het mogelijk om je eigen block te creëren."/>
+        </div>
       <ImageNavigation />
-      <TextBlock title="Wat is blockchain?" body="Lorem ipsum dolor sit amet, nemore regione fabellas ea has, ea saepe graece explicari nam. Id latine integre mel, vim id volutpat dissentiunt. Ei simul debitis fierent duo, labore omnium gloriatur sed ad. Nullam quaestio accommodare cum in, ius cu tritani civibus consulatu. Qui inimicus complectitur id.
-Illum augue liber in his. At eirmod maiorum eum, est causae democritum dissentiet in. No facer integre propriae nec. Has justo choro eu. Erat paulo comprehensam his cu, vel expetendis assueverit id, pro id tation inermis concludaturque.
+      <TextBlock title="Wat is blockchain?" body="Blockchain is een distributed, decentralized en digital ledger dat gebruikt wordt om transacties op te slaan. Dit allemaal gebeurt over verschillende nodes over de hele wereld. Door de verspreiding van de data is het onmogelijk om data te wijzigen of te verwijderen. Dit zorgt ervoor dat we overal ter wereld de data zonder risico op corrupte wijzigingen kunnen inkijken.
 "/>
 
       </div>

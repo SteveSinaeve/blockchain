@@ -93,20 +93,27 @@ textarea, select, input, button {
 
 /* Components */
 .c-blockchain-slider {
-  justify-content: space-evenly;
   overflow-x: scroll;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; }
   .c-blockchain-slider .c-block-small {
     width: 45%;
+    background-color: #f9f9f9;
     padding: 50px 10px 20px 10px;
     box-shadow: 9px 7px 40px -6px rgba(0, 0, 0, 0.25);
-    height: 50%; }
+    margin: 5%;
+    flex: 1;
+    display: flex;
+    flex-direction: column; }
     .c-blockchain-slider .c-block-small .c-block-input {
       width: 80%;
       font-size: 1.1rem;
       font-weight: 300;
       padding: 5px 5px 5px 20px;
       display: block; }
+      .c-blockchain-slider .c-block-small .c-block-input label {
+        font-weight: 600; }
       .c-blockchain-slider .c-block-small .c-block-input input {
         width: 100%;
         font-size: 0.8rem;
@@ -354,6 +361,9 @@ textarea, select, input, button {
   font-size: 1.3rem;
   margin: 10% 0;
   box-shadow: 0px 0px 14px -3px #42ABE1; }
+  .o-button a {
+    color: white;
+    text-decoration: none; }
 
 .menu-wrapper {
   position: absolute;
@@ -411,7 +421,8 @@ textarea, select, input, button {
   z-index: 999;
   height: auto;
   text-align: center;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: #f9f9f9; }
   .o-menu a {
     padding: 10px 15px;
     text-decoration: none;
@@ -432,3 +443,63 @@ textarea, select, input, button {
     border-right: 5px solid transparent;
     border-bottom: 5px solid black;
     clear: both; }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-container {
+    width: 80%;
+    padding: 10% 10%; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .g-hero .c-container {
+    width: 80%;
+    padding: 30% 10% 10% 10%;
+    background-image: none; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .e-hero-title h2 {
+    font-size: 1.5rem !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .e-hero-title h1 {
+    font-size: 1.8rem !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .s-title {
+    font-size: 1.4rem !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .s-body {
+    font-size: 1rem !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-imagenavigation {
+    flex-direction: column;
+    align-items: center; }
+    .c-imagenavigation .c-icon {
+      width: 80%; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-header.c-container {
+    width: 80%;
+    padding: 30% 10% 10% 10%;
+    background-image: none; }
+    .c-header.c-container:after {
+      background-image: none; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-shift {
+    width: 20% !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-merkle .t-flex-row {
+    flex-direction: column !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-merkle .c-merkle-tree {
+    width: 100% !important; } }
+
+@media (min-width: 20em) and (max-width: 46.24em) {
+  .c-merkle .c-merkle-inputs {
+    width: 100% !important;
+    border-left: none;
+    padding-left: 0% !important; } }

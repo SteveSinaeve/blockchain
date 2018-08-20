@@ -1,0 +1,86 @@
+$mq-breakpoints: ( mobile: 320px, tablet: 740px, desktop: 980px, wide: 1300px);
+.c-container {
+    @include mq($from: mobile, $until: tablet) {
+        width: 80%;
+        padding: 10% 10%;
+    }
+}
+
+.g-hero .c-container {
+    @include mq($from: mobile, $until: tablet) {
+        width: 80%;
+        padding: 30% 10% 10% 10%;
+        background-image: none;
+    }
+}
+
+.e-hero-title h2 {
+    @include mq($from: mobile, $until: tablet) {
+        font-size: 1.5rem !important;
+    }
+}
+
+.e-hero-title h1 {
+    @include mq($from: mobile, $until: tablet) {
+        font-size: 1.8rem !important;
+    }
+}
+
+.s-title {
+    @include mq($from: mobile, $until: tablet) {
+        font-size: 1.4rem !important;
+    }
+}
+
+.s-body {
+    @include mq($from: mobile, $until: tablet) {
+        font-size: 1rem !important;
+    }
+}
+
+.c-imagenavigation {
+    @include mq($from: mobile, $until: tablet) {
+        flex-direction: column;
+        align-items: center;
+        .c-icon {
+            width: 80%;
+        }
+    }
+}
+
+.c-header.c-container {
+    @include mq($from: mobile, $until: tablet) {
+        width: 80%;
+        padding: 30% 10% 10% 10%;
+        background-image: none;
+        &:after {
+            background-image: none;
+        }
+    }
+}
+
+.c-shift {
+    @include mq($from: mobile, $until: tablet) {
+        width: 20% !important;
+    }
+}
+
+.c-merkle {
+    .t-flex-row {
+        @include mq($from: mobile, $until: tablet) {
+            flex-direction: column !important;
+        }
+    }
+    .c-merkle-tree {
+        @include mq($from: mobile, $until: tablet) {
+            width: 100% !important;
+        }
+    }
+    .c-merkle-inputs {
+        @include mq($from: mobile, $until: tablet) {
+            width: 100% !important;
+            border-left: none;
+            padding-left: 0% !important;
+        }
+    }
+}
