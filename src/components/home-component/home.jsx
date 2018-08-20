@@ -4,9 +4,6 @@ import React, { Component } from 'react'
 import Hero from './../hero-component/hero'
 import TextBlock from './../text-block-component/textBlock'
 import ImageNavigation from './../image-navigation-component/image-navigation-component';
-// Style
-import './home.css';
-
 
 export default class Home extends Component {
   render() {

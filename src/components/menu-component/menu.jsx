@@ -8,6 +8,8 @@ export default class Menu extends Component {
         <NavLink activeClassName='is-active'  exact={true} to="/">Home</NavLink>
         <NavLink activeClassName='is-active' to="/cryptografie">Cryptografie</NavLink>
         <NavLink activeClassName='is-active' to="/block">Block</NavLink>
+        <NavLink activeClassName='is-active' to="/blockchain">Blockchain</NavLink>
+
       </div>
     )
   }

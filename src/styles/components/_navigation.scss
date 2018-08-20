@@ -9,6 +9,42 @@
         background-position: center;
         color: black;
         text-decoration: none;
+        .SVGInline {
+            .SVGInline-svg {
+                max-height: 70%;
+                max-width: 100%;
+                padding-top: 50%;
+            }
+            text-align: center;
+            width: 50%;
+            height: 80%;
+            .blockchain-svg{
+            .cls-1{fill:#d0e6f8;}
+            .cls-2{fill:#b7d7f2;}
+            .cls-3{fill:#a6c8eb;}
+            .cls-4{fill:#445ea8;}
+            .cls-5{fill:#3855a2;}
+            .cls-6{fill:#fff;}
+            .cls-7{fill:#223e92;}
+            .cls-8{opacity:0.2;fill:url(#Naamloos_verloop_14);}
+            .cls-10,.cls-9{opacity:0.35;}
+            .cls-9{fill:url(#Naamloos_verloop_14-2);}
+            .cls-10{fill:url(#Naamloos_verloop_14-3);}
+            }
+            .block-svg {
+                .cls-1{fill:#223e92;}
+                .cls-2{fill:#3855a2;}
+                .cls-3{fill:#fff;}
+                .cls-4{fill:#445ea8;}
+            }
+            .typography-svg {
+                .cls-7{fill:#fff;stroke-miterlimit:10;stroke-width:3px}
+                .cls-4{fill:#42abe1}
+                .cls-5{fill:#234694}
+                .cls-6{fill:#234595}
+                .cls-7{stroke:#42abe1}
+            }
+        }
         img {
             width: 50%;
             padding: 10%;
